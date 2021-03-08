@@ -20,3 +20,14 @@
     }
   }
 }
+.services-container {
+  text-align: center;
+  &__header {
+    margin: 3rem;
+  }
+  &-row {
+    &-element {
+      margin-bottom: 3rem;
+    }
+  }
+}
