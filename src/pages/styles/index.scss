@@ -1,0 +1,22 @@
+.first-index-row {
+  display: flex;
+  align-items: center;
+  &__text-col {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  &-img-col {
+    padding-left: 0;
+    padding-right: 0;
+    &__main-image {
+      @media (max-width: 991px) {
+        height: 15rem;
+      }
+    }
+  }
+}

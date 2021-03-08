@@ -1,14 +1,14 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { StaticImage } from "gatsby-plugin-image"
-import { Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import './header.scss'
 // import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"></link>
-    <Container>
+    {/* <Container> */}
       <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
         <Navbar.Brand href="/">
           <StaticImage
@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </Container>
+    {/* </Container> */}
   </header>
 )
 
