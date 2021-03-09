@@ -1,6 +1,10 @@
+.gatsby-image-wrapper-constrained {
+  display: block !important;
+}
 .first-index-row {
   display: flex;
   align-items: center;
+  background-color: #d8d8d8;
   &__text-col {
     display: flex;
     flex-direction: column;
@@ -9,13 +13,16 @@
     align-items: center;
     text-align: center;
     padding-bottom: 3rem;
+    @media (max-width: 991px) {
+      margin-top: 2rem;
+    }
   }
   &-img-col {
     padding-left: 0;
     padding-right: 0;
     &__main-image {
       @media (max-width: 991px) {
-        height: 15rem;
+        height: 14rem;
       }
     }
   }
