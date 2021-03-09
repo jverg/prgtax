@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `PRG | Accounting & Consulting`,
+    title: `PRG - Accounting & Consulting`,
     description: ``,
     author: `@prgtax`,
   },

@@ -29,6 +29,7 @@ const Header = ({ siteTitle }) => (
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
             </NavDropdown>
+            <Nav.Link className="menu-item" href="/team">Η ομάδα μας</Nav.Link>
             <Nav.Link href="/contact">Επικοινωνία</Nav.Link>
           </Nav>
         </Navbar.Collapse>

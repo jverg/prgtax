@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Αρχική" />
     <Row className="first-index-row">
       <Col lg={6} sm="12" className="first-index-row__text-col">
         <h3>
