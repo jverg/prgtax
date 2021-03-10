@@ -25,11 +25,7 @@ const Header = ({ siteTitle }) => (
             <NavDropdown className="menu-item" title="Υπηρεσίες" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Λογιστικά</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Φορολογικά</NavDropdown.Item>
-              {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
             </NavDropdown>
-            <Nav.Link className="menu-item" href="/team">Η ομάδα μας</Nav.Link>
             <Nav.Link href="/contact">Επικοινωνία</Nav.Link>
           </Nav>
         </Navbar.Collapse>
