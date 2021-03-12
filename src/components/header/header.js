@@ -1,9 +1,8 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import PropTypes from "prop-types";
+import { StaticImage } from "gatsby-plugin-image";
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
-import './header.scss'
-// import { Link } from "gatsby"
+import './header.scss';
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -32,14 +31,14 @@ const Header = ({ siteTitle }) => (
       </Navbar>
     {/* </Container> */}
   </header>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
