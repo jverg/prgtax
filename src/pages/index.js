@@ -20,7 +20,7 @@ const IndexPage = () => (
             alt="PRG logo"
             className="logo"
           /></h3>
-        <h5>Λογιστικό - Φοροτεχνικό γραφέιο</h5>
+        <h5>Λογιστικό - Φοροτεχνικό γραφείο</h5>
       </Col>
       <Col className="first-index-row-img-col">
         <StaticImage
@@ -35,7 +35,7 @@ const IndexPage = () => (
       <Row services-container-row>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faAddressCard} size="2x" color="#77C5EF"/>
-          <p>φορολογικές δηλώσεις</p>
+          <p>Φορολογικές δηλώσεις</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faCheck} size="2x" color="#77C5EF"/>
