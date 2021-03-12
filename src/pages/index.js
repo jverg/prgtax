@@ -32,7 +32,7 @@ const IndexPage = () => (
     </Row>
     <Container className="services-container">
       <h2 className="services-container__header">Υπηρεσίες</h2>
-      <Row services-container-row>
+      <Row className="services-container-row">
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faAddressCard} size="2x" color="#77C5EF"/>
           <p>Φορολογικές δηλώσεις</p>
