@@ -10,7 +10,7 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Επικοινωνία" />
     <Row className="contact-row">
-      <Col lg={7} sm="12" className="contact-row-img">
+      <Col lg={6} sm="12" className="contact-row-img">
         <div className="contact-row-img-items">
           <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" className="contact-row-img-items-form">
           <h5>Φόρμα Επικοινωνίας</h5>
@@ -24,7 +24,7 @@ const ContactPage = () => (
           </form>
         </div>
       </Col>
-      <Col lg={5} sm="12" className="contact-row-col">
+      <Col lg={6} sm="12" className="contact-row-col">
         <div>
           <h4 className="contact-row-col-text">Επικοινωνήστε μαζί μας</h4>
           <h5>

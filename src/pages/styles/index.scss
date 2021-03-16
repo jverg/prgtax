@@ -20,8 +20,17 @@
   &-img-col {
     padding-left: 0;
     padding-right: 0;
+    height: 40rem;
+    @media (max-width: 767px) {
+      height: 14rem;
+      padding-right: 0 !important;
+    }
     &__main-image {
-      @media (max-width: 991px) {
+      height: 40rem;
+      background: url(../../images/main-image.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      @media (max-width: 767px) {
         height: 14rem;
       }
     }
@@ -35,6 +44,48 @@
   &-row {
     &-element {
       margin-bottom: 3rem;
+    }
+  }
+}
+
+.team-row {
+  display: flex;
+  align-items: center;
+  background-color: #77C5EF;
+  color: white;
+  &-text-col {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @media (max-width: 991px) {
+      margin-top: 2rem;
+    }
+    &__text {
+      padding: 0 3.5rem;
+      @media (max-width: 991px) {
+        padding: 1rem 1rem;
+      }
+    }
+  }
+  &-img-col {
+    padding-left: 0;
+    padding-right: 0;
+    height: 40rem;
+    @media (max-width: 767px) {
+      height: 14rem;
+      padding-right: 0 !important;
+    }
+    &__main-image {
+      height: 40rem;
+      background: url(../../images/team.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      @media (max-width: 767px) {
+        height: 14rem;
+      }
     }
   }
 }
