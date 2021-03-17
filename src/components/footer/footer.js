@@ -21,13 +21,20 @@ const Footer = () => (
           </h5>
           <h5>
             <FontAwesomeIcon className="contact-row-col-icon" icon={faPhone} color="#77C5EF"/>
-            (+30) 210 7239 745 & (+30) 214 4028 210
+            <a href="tel:2107239745" style={{color: "black"}}>
+              210 7239 745
+            </a> & 
+            <a href="tel:2144028210" style={{color: "black"}}>
+              214 4028 210
+            </a>
           </h5>
           <h5>
             <FontAwesomeIcon className="contact-row-col-icon" icon={faEnvelope} color="#77C5EF"/>
-            info@prgtax.gr
+            <a href="mailto:info@prgtax.gr" style={{color: "black"}}>
+              info@prgtax.gr
+            </a>
           </h5>
-          <a href="/">
+          <a href="/" style={{color: "black"}}>
           <h6 className="contact-row-footer-text__pdf">
             <FontAwesomeIcon className="contact-row-col-icon__pdf" icon={faFilePdf} color="#77C5EF"/>
             Ισολογισμός
