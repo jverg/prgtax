@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Row, Col } from 'react-bootstrap';
 // import Layout from '../layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope, faMapMarkerAlt, faBuilding } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faMapMarkerAlt, faBuilding, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import './footer.scss'
 
 const Footer = () => (
@@ -27,6 +27,14 @@ const Footer = () => (
             <FontAwesomeIcon className="contact-row-col-icon" icon={faEnvelope} color="#77C5EF"/>
             info@prgtax.gr
           </h5>
+          <a href="/">
+          <h6 className="contact-row-footer-text__pdf">
+            <FontAwesomeIcon className="contact-row-col-icon__pdf" icon={faFilePdf} color="#77C5EF"/>
+            Ισολογισμός
+          </h6></a>
+          <h6 className="contact-row-footer-text__power">
+           PRG © {new Date().getFullYear()}
+          </h6>
         </div>
       </Col>
       <Col lg={6} sm="12">
