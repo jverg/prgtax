@@ -23,9 +23,8 @@ const Footer = () => (
             <FontAwesomeIcon className="contact-row-col-icon" icon={faPhone} color="#77C5EF"/>
             <a href="tel:2107239745" style={{color: "black"}}>
               210 7239 745
-            </a> & 
-            <a href="tel:2144028210" style={{color: "black"}}>
-              214 4028 210
+            </a>
+            <a href="tel:2144028210" style={{color: "black"}}> & 214 4028 210
             </a>
           </h5>
           <h5>

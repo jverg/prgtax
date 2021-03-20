@@ -19,11 +19,17 @@
     flex-direction: column;
     padding: 5rem 3rem;
     border: 2px solid lightgrey;
+    @media (max-width: 425px) {
+      padding: 3rem 0;
+    }
     &-text {
       height: 12rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      @media (max-width: 425px) {
+        padding: 1rem;
+      }
       &__pdf {
         position: absolute;
         bottom: 0;
