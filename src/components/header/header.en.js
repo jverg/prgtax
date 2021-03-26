@@ -7,7 +7,6 @@ import './header.scss';
 const Header = ({ siteTitle, lang }) => (
   <header>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"></link>
-    {/* <Container> */}
       <Navbar collapseOnSelect expand="xxl" bg="white" variant="light">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Brand href="/">
@@ -37,7 +36,6 @@ const Header = ({ siteTitle, lang }) => (
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    {/* </Container> */}
   </header>
 );
 
