@@ -8,11 +8,11 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Header from "./header/header"
+import Header from "./header/header.el"
 import Footer from "./footer/footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, lang }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} lang="el"/>
       <main>{children}</main>
       <Footer />
     </>

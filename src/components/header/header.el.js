@@ -4,10 +4,9 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import './header.scss';
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, lang}) => (
   <header>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"></link>
-    {/* <Container> */}
       <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
         <Navbar.Brand href="/">
           <StaticImage
@@ -29,16 +28,17 @@ const Header = ({ siteTitle }) => (
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    {/* </Container> */}
   </header>
 );
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  lang: PropTypes.string,
 };
 
 Header.defaultProps = {
   siteTitle: ``,
+  lang: ``,
 };
 
 export default Header;

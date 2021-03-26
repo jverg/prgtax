@@ -1,7 +1,6 @@
 import * as React from 'react';
 import PropTypes from "prop-types";
 import { Row, Col } from 'react-bootstrap';
-// import Layout from '../layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt, faBuilding, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import './footer.scss'

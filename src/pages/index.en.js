@@ -6,11 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressCard, faCheck, faEnvelope, faFile, faPaste, faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 import './styles/index.scss'
 
-import Layout from "../components/layout"
+import LayoutEn from "../components/layout.en"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <LayoutEn>
     <SEO title="Αρχική" />
     <Row className="first-index-row">
       <Col lg="6" md="6" sm="12" xs="12" className="first-index-row__text-col">
@@ -28,7 +28,7 @@ const IndexPage = () => (
       </Col>
     </Row>
     <Container className="services-container">
-      <h3 className="services-container__header">Οι υπηρεσίες μας</h3>
+      <h3 className="services-container__header">Our services</h3>
       <Row className="services-container-row">
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faAddressCard} size="2x" color="#77C5EF"/>
@@ -75,7 +75,7 @@ const IndexPage = () => (
         </h5>
       </Col>
     </Row>
-  </Layout>
+  </LayoutEn>
 )
 
 export default IndexPage

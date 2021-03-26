@@ -1,5 +1,5 @@
 import * as React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/layout.el"
 // import { Row, Col, Button } from 'react-bootstrap';
 import SEO from "../components/seo"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -8,8 +8,8 @@ import SEO from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Payroll" />
-    <h5>Payroll page</h5>
+    <SEO title="Accounting" />
+    <h5>Accounting page</h5>
   </Layout>
 )
 
