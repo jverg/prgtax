@@ -8,8 +8,8 @@ import SEO from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Accounting" />
-    <h5>Accounting page</h5>
+    <SEO title="Payroll" />
+    <h5>Payroll page</h5>
   </Layout>
 )
 

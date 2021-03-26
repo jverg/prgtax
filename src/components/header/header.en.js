@@ -20,12 +20,12 @@ const Header = ({ siteTitle, lang }) => (
           <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto"></Nav>
           <Nav>
-            <Nav.Link className="menu-item" href="/">Home</Nav.Link>
+            <Nav.Link className="menu-item" href="/en">Home</Nav.Link>
             <NavDropdown className="menu-item" title="Services" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/accounting">Tax - Accounting</NavDropdown.Item>
-              <NavDropdown.Item href="/payroll">Payroll</NavDropdown.Item>
+              <NavDropdown.Item href="/en/accounting">Tax - Accounting</NavDropdown.Item>
+              <NavDropdown.Item href="/en/payroll">Payroll</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/en/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

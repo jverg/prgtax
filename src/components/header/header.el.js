@@ -7,7 +7,7 @@ import './header.scss';
 const Header = ({ siteTitle, lang}) => (
   <header>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"></link>
-      <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
+      <Navbar collapseOnSelect expand="xxl" bg="white" variant="light">
         <Navbar.Brand href="/">
           <StaticImage
             src="../../images/prg-logo.png"

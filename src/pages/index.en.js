@@ -21,7 +21,7 @@ const IndexPage = () => (
             className="logo"
           />
         </h3>
-        <h5>Λογιστικό - Φοροτεχνικό γραφείο</h5>
+        <h5>Accounting - Consulting office</h5>
       </Col>
       <Col lg="6" md="6" sm="12" xs="12" className="first-index-row-img-col">
         <div className="first-index-row-img-col__main-image" />
@@ -32,31 +32,29 @@ const IndexPage = () => (
       <Row className="services-container-row">
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faAddressCard} size="2x" color="#77C5EF"/>
-          <p>Φορολογικές δηλώσεις</p>
+          <p>Tax statements</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faCheck} size="2x" color="#77C5EF"/>
-          <p>Τήρηση λογιστικών βιβλίων</p>
+          <p>Bookkeeping tax files</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faEnvelope} size="2x" color="#77C5EF"/>
-          <p>Σύνταξη ταμειακών ροών</p>
+          <p>Cash flow writing</p>
         </div>
       </Row>
       <Row>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faFile} size="2x" color="#77C5EF"/>
-          <p>Διαχείριση προσλήψεων</p>
+          <p>Recruitment management</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faPaste} size="2x" color="#77C5EF"/>
-          <p>Πληρωμές ασφαλιστικών εισφορών</p>
+          <p>Payments of insurance contributions</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faThumbsUp} size="2x" color="#77C5EF"/>
-          <p>
-            Έκδοση μισθοδοτικών καταστάσεων
-            </p>
+          <p>Issuance of payroll statements</p>
         </div>
       </Row>
     </Container>
@@ -66,12 +64,12 @@ const IndexPage = () => (
       </Col>
       <Col lg="6" md="6" sm="12" xs="12" className="team-row-text-col">
         <h5 className="team-row-text-col__text">
-          Είμαστε ένα από τα μεγαλύτερα Λογιστικά - Φοροτεχνικά γραφεία πανελλαδικώς. 
-          Μέσα από μεγάλη ομάδα έμπειρων λογιστών προσπαθούμε να σταθούμε και να βοηθήσουμε τον 
-          φορολογούμενο μέσα από σύγχρονες λύσεις και εναλλακτικές διαδικασίες 
-          προκειμένου να αντιμετωπίσει τα φορολογικά και εργατικά του βάρη. Σας 
-          περιμένουμε στο λογιστικό γραφείο να γνωριστούμε και να σας λύσουμε τα 
-          προβλήματα από κοντά.
+          We are one of the largest Accounting - Tax offices nationwide.
+          Through a large team of experienced accountants we try to stand by and help him
+          taxpayer through modern solutions and alternative procedures
+          in order to face its tax and labor burdens. Your
+          We are waiting at the accounting office to meet and solve your problems
+          problems up close.
         </h5>
       </Col>
     </Row>
