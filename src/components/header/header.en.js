@@ -18,10 +18,10 @@ const Header = ({ siteTitle, lang }) => (
           />
         </Navbar.Brand>
         <div className="flags">
-            <a href="/">
+            <a href="/" className="flags-greek">
                 GR
             </a>
-            <a href="/en">
+            <a href="/en" className="flags-english">
                 EN
             </a>
         </div>

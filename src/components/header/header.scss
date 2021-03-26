@@ -3,7 +3,23 @@ html body {
 }
 .logo {
   width: 8rem;
+  @media (max-width: 991px) {
+    height: 3rem;
+    width: 5rem;
+  }
 }
-.menu-item {
-  margin-right: 2rem;
+.flags {
+  &-greek {
+    margin-right: 1rem;
+    color: black;
+  }
+  &-english {
+    color: black;
+  }
+  :link {
+    text-decoration: none;
+  }
+}
+.navbar-brand {
+  margin-right: 0 !important;
 }
