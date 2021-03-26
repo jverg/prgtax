@@ -9,6 +9,7 @@ const Header = ({ siteTitle, lang }) => (
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"></link>
     {/* <Container> */}
       <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Brand href="/">
           <StaticImage
             src="../../images/prg-logo.png"
@@ -16,8 +17,15 @@ const Header = ({ siteTitle, lang }) => (
             className="logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+        <div className="flags">
+            <a href="/">
+                GR
+            </a>
+            <a href="/en">
+                EN
+            </a>
+        </div>
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto"></Nav>
           <Nav>
             <Nav.Link className="menu-item" href="/en">Home</Nav.Link>
