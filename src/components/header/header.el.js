@@ -1,5 +1,6 @@
 import * as React from "react";
 import PropTypes from "prop-types";
+import { Location } from '@reach/router'
 import { StaticImage } from "gatsby-plugin-image";
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import './header.scss';
@@ -16,14 +17,19 @@ const Header = ({ siteTitle, lang}) => (
             className="logo"
           />
         </Navbar.Brand>
-        <div className="flags">
-            <a href="/" className="flags-greek">
+        <Location>
+          {({ location }) => {
+            const path = location.pathname;
+            return (<div className="flags">
+              <a href={path} className="flags-greek">
                 GR
-            </a>
-            <a href="/en" className="flags-english">
+              </a>
+              <a href={`/en${path}`} className="flags-english">
                 EN
-            </a>
-        </div>
+              </a>
+            </div>);
+          }}
+        </Location>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto"></Nav>
           <Nav>

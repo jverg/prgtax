@@ -1,5 +1,5 @@
 import * as React from "react"
-import Layout from "../components/layout.en"
+import Layout from "../components/layout.el"
 // import { Row, Col, Button } from 'react-bootstrap';
 import SEO from "../components/seo"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
