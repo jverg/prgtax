@@ -32,31 +32,31 @@ const IndexPage = () => (
       <Row className="services-container-row">
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faAddressCard} size="2x" color="#77C5EF"/>
-          <p>Φορολογικές δηλώσεις</p>
+          <p>Σύνταξη οικονομικών καταστάσεων</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faCheck} size="2x" color="#77C5EF"/>
-          <p>Τήρηση λογιστικών βιβλίων</p>
+          <p>Επίβλεψη Λογιστηρίου</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faEnvelope} size="2x" color="#77C5EF"/>
-          <p>Σύνταξη ταμειακών ροών</p>
+          <p>Τήρηση λογιστικών βιβλίων</p>
         </div>
       </Row>
       <Row>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faFile} size="2x" color="#77C5EF"/>
-          <p>Διαχείριση προσλήψεων</p>
+          <p>Υπολογισμός μισθοδοσίας</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faPaste} size="2x" color="#77C5EF"/>
-          <p>Πληρωμές ασφαλιστικών εισφορών</p>
+          <p>Έλεγχοι από την φορολογική διοίκηση</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
           <FontAwesomeIcon className="services-container-row-element__icon" icon={faThumbsUp} size="2x" color="#77C5EF"/>
           <p>
-            Έκδοση μισθοδοτικών καταστάσεων
-            </p>
+            Σύσταση και μεταβολές Νομικών Προσώπων
+          </p>
         </div>
       </Row>
     </Container>
