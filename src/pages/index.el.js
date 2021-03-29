@@ -3,7 +3,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Row, Col, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAddressCard, faCheck, faEnvelope, faFile, faPaste, faThumbsUp } from '@fortawesome/free-solid-svg-icons'
+import { faAddressCard, faBuilding, faBook, faSearchDollar, faPaste, faUsersCog } from '@fortawesome/free-solid-svg-icons'
 import './styles/index.scss'
 
 import Layout from "../components/layout.el"
@@ -35,17 +35,17 @@ const IndexPage = () => (
           <p>Σύνταξη οικονομικών καταστάσεων</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
-          <FontAwesomeIcon className="services-container-row-element__icon" icon={faCheck} size="2x" color="#77C5EF"/>
+          <FontAwesomeIcon className="services-container-row-element__icon" icon={faBuilding} size="2x" color="#77C5EF"/>
           <p>Επίβλεψη Λογιστηρίου</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
-          <FontAwesomeIcon className="services-container-row-element__icon" icon={faEnvelope} size="2x" color="#77C5EF"/>
+          <FontAwesomeIcon className="services-container-row-element__icon" icon={faBook} size="2x" color="#77C5EF"/>
           <p>Τήρηση λογιστικών βιβλίων</p>
         </div>
       </Row>
       <Row>
         <div className="col-sm-4 services-container-row-element">
-          <FontAwesomeIcon className="services-container-row-element__icon" icon={faFile} size="2x" color="#77C5EF"/>
+          <FontAwesomeIcon className="services-container-row-element__icon" icon={faSearchDollar} size="2x" color="#77C5EF"/>
           <p>Υπολογισμός μισθοδοσίας</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
@@ -53,7 +53,7 @@ const IndexPage = () => (
           <p>Έλεγχοι από την φορολογική διοίκηση</p>
         </div>
         <div className="col-sm-4 services-container-row-element">
-          <FontAwesomeIcon className="services-container-row-element__icon" icon={faThumbsUp} size="2x" color="#77C5EF"/>
+          <FontAwesomeIcon className="services-container-row-element__icon" icon={faUsersCog} size="2x" color="#77C5EF"/>
           <p>
             Σύσταση και μεταβολές Νομικών Προσώπων
           </p>
