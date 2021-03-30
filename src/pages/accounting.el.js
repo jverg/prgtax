@@ -10,7 +10,7 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Accounting" />
     <Row>
-      <Col md="12" className="imgcol" />
+      <Col md="12" className="imgcolaccounting" />
     </Row>
     <Row className="text-row">
       <Col md="3"></Col>
