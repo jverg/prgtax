@@ -32,7 +32,7 @@ const Footer = () => (
               info@prgtax.gr
             </a>
           </h5>
-          <a href="/" style={{color: "black"}}>
+          <a href="/prg.pdf" target="_blank" style={{color: "black"}}>
           <h6 className="contact-row-footer-text__pdf">
             <FontAwesomeIcon className="contact-row-col-icon__pdf" icon={faFilePdf} color="#77C5EF"/>
             Ισολογισμός
