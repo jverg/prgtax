@@ -51,7 +51,7 @@
 .team-row {
   display: flex;
   align-items: center;
-  background-color: #77c5ef;
+  background-color: white;
   color: black;
   &-text-col {
     display: flex;
@@ -59,7 +59,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     @media (max-width: 991px) {
       margin-top: 2rem;
     }
@@ -67,6 +67,9 @@
       padding: 0 3.5rem;
       @media (max-width: 991px) {
         padding: 1rem 1rem;
+      }
+      &-bold {
+        color: #77c5ef;
       }
     }
   }
