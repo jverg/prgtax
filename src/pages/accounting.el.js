@@ -2,8 +2,8 @@ import * as React from "react"
 import Layout from "../components/layout.el"
 import { Row, Col } from 'react-bootstrap';
 import SEO from "../components/seo"
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBook, faPaste, faSearchDollar, faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import './styles/accounting.scss'
 
 const ContactPage = () => (
@@ -32,16 +32,20 @@ const ContactPage = () => (
     <Col md="1"></Col>
     <Col md="6" className="text-row__text">
         <h5>
+        <FontAwesomeIcon className="text-row__text__icon" icon={faBook} color="#77C5EF"/>
         Τήρηση Βιβλίων. Οι λογιστές μας συλλέγουν και επεξεργάζονται δεδομένα σχετικά με
         αγορές, αποδείξεις, πωλήσεις και πληρωμές.
        </h5><br></br>
         <h5>
+        <FontAwesomeIcon className="text-row__text__icon" icon={faPaste} color="#77C5EF"/>
         Προετοιμασία φορολογικών δηλώσεων,
         </h5><br></br>
         <h5>
+        <FontAwesomeIcon className="text-row__text__icon" icon={faAddressBook} color="#77C5EF"/>
         Φορολογία (φόρος εισοδήματος, ΦΠΑ, φόρος ακίνητης περιουσίας, διπλή φορολογία κλπ),
         </h5><br></br>
         <h5>
+        <FontAwesomeIcon className="text-row__text__icon" icon={faSearchDollar} color="#77C5EF"/>
         Σύνταξη ετήσιων οικονομικών καταστάσεων με βάση τα Ελληνικά Λογιστικά Πρότυπα και τα
         Διεθνή Λογιστικά Πρότυπα 
         </h5><br></br>
