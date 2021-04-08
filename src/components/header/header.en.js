@@ -35,8 +35,10 @@ const Header = ({ siteTitle, lang }) => (
           <Nav>
             <Nav.Link className="menu-item" href="/en">Home</Nav.Link>
             <NavDropdown className="menu-item" title="Services" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/en/accounting">Tax - Accounting</NavDropdown.Item>
+              <NavDropdown.Item href="/en/accounting">Tax - Accounting Services</NavDropdown.Item>
+              <NavDropdown.Item href="/en/consultant">Consultant Services</NavDropdown.Item>
               <NavDropdown.Item href="/en/payroll">Payroll</NavDropdown.Item>
+              <NavDropdown.Item href="/en/legal">Legal Services</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/en/contact">Contact</Nav.Link>
           </Nav>

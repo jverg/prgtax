@@ -35,10 +35,10 @@ const Header = ({ siteTitle, lang}) => (
           <Nav>
             <Nav.Link className="menu-item" href="/">Αρχική</Nav.Link>
             <NavDropdown className="menu-item" title="Υπηρεσίες" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/accounting">Φορολογικές - Λογιστικές</NavDropdown.Item>
-              <NavDropdown.Item href="/payroll">Συμβουλευτικές Υπηρεσίες</NavDropdown.Item>
+              <NavDropdown.Item href="/accounting">Φορολογικές - Λογιστικές Υπηρεσίες</NavDropdown.Item>
+              <NavDropdown.Item href="/consultant">Συμβουλευτικές Υπηρεσίες</NavDropdown.Item>
               <NavDropdown.Item href="/payroll">Μισθοδοσία</NavDropdown.Item>
-              <NavDropdown.Item href="/payroll">Νομικές Υπηρεσίες</NavDropdown.Item>
+              <NavDropdown.Item href="/legal">Νομικές Υπηρεσίες</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contact">Επικοινωνία</Nav.Link>
           </Nav>

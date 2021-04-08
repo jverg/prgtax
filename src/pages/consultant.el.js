@@ -4,29 +4,29 @@ import { Row, Col, Container } from 'react-bootstrap';
 import SEO from "../components/seo"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import './styles/payroll.scss'
+import './styles/consultant.scss'
 
 const ContactPage = () => (
   <Layout>
     <SEO title="Accounting" />
     <Row>
-      <Col md="12" className="imgcol" />
+      <Col md="12" className="imgcolconsultant" />
     </Row>
     <Row className="text-row">
       <Col md="3"></Col>
       <Col md="6" className="text-row__text">
         <h4 className="text-row__text-title">
-          Mισθοδοσία
+        Συμβουλευτικές Υπηρεσίες
         </h4>
         <h5>
-        Παρέχουμε βαθιά εξειδίκευση σε θέματα ανθρώπινου δυναμικού, για την ορθή
-        διατήρηση της μισθοδοσίας μίας επιχείρησης και της αποφυγής προβλημάτων
-        συμμόρφωσης με το εργατικό δίκαιο.
+        Επιχειρηματικά Σχέδια, εκπόνηση ολοκληρωμένου επιχειρηματικού σχεδιασμού, με
+        αναζήτηση όλων των πιθανών κινδύνων, νομικών, φορολογικών και μισθοδοτικών, για την
+        ορθότερη και πιο συμφέρουσα επιχειρηματική επιλογή.
         </h5>
       </Col>
       <Col md="3"></Col>
     </Row>
-    <Row className="text-row">
+    {/* <Row className="text-row">
     <Col md="2" className="text-row__bluecol"></Col>
     <Col md="1"></Col>
     <Col md="6" className="text-row__text">
@@ -58,7 +58,7 @@ const ContactPage = () => (
       </Col>
       <Col md="1"></Col>
       <Col md="2" className="text-row__bluecol"></Col>
-    </Row>
+    </Row> */}
   </Layout>
 )
 

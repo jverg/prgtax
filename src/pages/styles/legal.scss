@@ -1,0 +1,28 @@
+.imgcollegal {
+  height: 30rem;
+  background: url(../../images/legal.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text-row {
+  padding: 2rem 0;
+  color: gray;
+  @media (max-width: 767px) {
+    padding: 0 1rem;
+  }
+  &__text {
+    padding-top: 2rem;
+    &-title {
+      color: black;
+      padding-bottom: 2rem;
+      text-align: center;
+    }
+  }
+  &__bluecol {
+    background-color: #77c5ef;
+  }
+  &__big-text {
+    padding: 2rem 0 0 0;
+  }
+}
