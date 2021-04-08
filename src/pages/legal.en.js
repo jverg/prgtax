@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout.en"
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import SEO from "../components/seo"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -10,7 +10,7 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Accounting" />
     <Row>
-      <Col md="12" className="imgcol" />
+      <Col md="12" className="imgcollegal" />
     </Row>
     <Row className="text-row">
       <Col md="3"></Col>
