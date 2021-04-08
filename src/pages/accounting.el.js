@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout.el"
 import { Row, Col } from 'react-bootstrap';
 import SEO from "../components/seo"
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBook, faPaste, faSearchDollar, faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import './styles/accounting.scss'

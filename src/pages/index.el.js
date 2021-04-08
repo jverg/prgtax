@@ -3,6 +3,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Row, Col, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import { faAddressCard, faBuilding, faBook, faSearchDollar, faPaste, faUsersCog } from '@fortawesome/free-solid-svg-icons'
 import './styles/index.scss'
 
