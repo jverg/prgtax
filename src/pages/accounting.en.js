@@ -2,53 +2,46 @@ import * as React from "react"
 import Layout from "../components/layout.en"
 import { Row, Col } from 'react-bootstrap';
 import SEO from "../components/seo"
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBook, faPaste, faSearchDollar, faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import './styles/accounting.scss'
 
 const ContactPage = () => (
   <Layout>
     <SEO title="Accounting" />
     <Row>
-      <Col md="12" className="imgcol" />
+      <Col md="12" className="imgcolaccounting" />
     </Row>
     <Row className="text-row">
       <Col md="3"></Col>
       <Col md="6" className="text-row__text">
         <h4 className="text-row__text-title">
-          Tax - Accounting
-        </h4>
-        <h5>
-          Είμαστε ένα από τα μεγαλύτερα Λογιστικά - Φοροτεχνικά γραφεία πανελλαδικώς. 
-          Μέσα από μεγάλη ομάδα έμπειρων λογιστών προσπαθούμε να σταθούμε και να βοηθήσουμε τον 
-          φορολογούμενο μέσα από σύγχρονες λύσεις και εναλλακτικές διαδικασίες 
-          προκειμένου να αντιμετωπίσει τα φορολογικά και εργατικά του βάρη. Σας 
-          περιμένουμε στο λογιστικό γραφείο να γνωριστούμε και να σας λύσουμε τα 
-          προβλήματα από κοντά.
-        </h5>
-        <h5 className="text-row__big-text">
-          Οι άνθρωποι του γραφείου μας βρίσκονταί κάθε ώρα και στιγμή δίπλα στους πελάτες μας,
-          πάντα θα βρίσκετε κάποιος στην διαθεσή σας για ν αέρθετε σε επικοινωνία μαζί του.
-        </h5>
-        <h4 className="text-row__big-text">
-          Επικοινωνήστεμαζί μας και ρωτήστε μας ότι σας απασχολεί!
+        Tax - Accounting services
         </h4>
       </Col>
       <Col md="3"></Col>
     </Row>
     <Row className="text-row">
-    <Col md="2" className="text-row__bluecol"></Col>
-    <Col md="1"></Col>
-    <Col md="6" className="text-row__text">
+      <Col md="2" className="text-row__bluecol"></Col>
+      <Col md="1"></Col>
+      <Col md="6" className="text-row__text">
         <h5>
-          Δηλώσεις | Ε9 | Μισθοδοσίες | Βάρδιες | Προσλήψεις
-        </h5>
+          <FontAwesomeIcon className="text-row__text__icon" icon={faBook} color="#77C5EF"/>
+          Tax Planning
+        </h5><br></br>
         <h5>
-          Lorsssem | ipsufsdfsm | doloewr | sdfdit | amretr
-        </h5>
+          <FontAwesomeIcon className="text-row__text__icon" icon={faPaste} color="#77C5EF"/>
+          Book Keeping
+        </h5><br></br>
         <h5>
-          Διαθήκες | ΙΚΑ | Ασφάλιστικά | Εγατικά | Διάφορα
-        </h5>
+          <FontAwesomeIcon className="text-row__text__icon" icon={faAddressBook} color="#77C5EF"/>
+          Tax Declarations       
+        </h5><br></br>
+        <h5>
+          <FontAwesomeIcon className="text-row__text__icon" icon={faSearchDollar} color="#77C5EF"/>
+          Direct and Indirect Taxation (Income tax, VAT, Real Estate Tax, Double Taxation etc.)
+        </h5><br></br>
       </Col>
       <Col md="1"></Col>
       <Col md="2" className="text-row__bluecol"></Col>
