@@ -7,15 +7,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './styles/contact.scss'
 
-const formName = JSON.stringify('contact');
-
 const ContactPage = () => (
   <Layout>
     <SEO title="Επικοινωνία" />
     <Row className="contact-row">
       <Col lg={6} sm="12" className="contact-row-img">
         <div className="contact-row-img-items">
-          <form method="POST" action="/el/contact" netlify-honeypot="bot-field" data-netlify="true" name={name} form-name={name} className="contact-row-img-items-form">
+          <form method="POST" action="/el/contact" netlify-honeypot="bot-field" data-netlify="true" name='Contact' form-name='Contact' className="contact-row-img-items-form">
           <h5>Φόρμα Επικοινωνίας</h5>
             <label htmlFor="name">Ονομα/νυμο</label>
             <input className="contact-row-img-items-form__input" type="text" name="name" id="name" />
