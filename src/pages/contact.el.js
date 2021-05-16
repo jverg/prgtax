@@ -13,10 +13,10 @@ const ContactPage = () => (
     <Row className="contact-row">
       <Col lg={6} sm="12" className="contact-row-img">
         <div className="contact-row-img-items">
-          <form method="POST" action="/contact" netlify netlify-honeypot="bot-field" data-netlify="true" name='Contact' form-name='Contact' className="contact-row-img-items-form">
+          <form method="POST" action="/contact" netlify netlify-honeypot="bot-field" data-netlify="true" name='contact' form-name='contact' className="contact-row-img-items-form">
           <h5>Φόρμα Επικοινωνίας</h5>
             <label htmlFor="name">Ονομα/νυμο</label>
-            <input type="hidden" name="form-name" value="Contact" />
+            <input type="hidden" name="form-name" value="contact" />
             <input className="contact-row-img-items-form__input" type="text" name="name" id="name" />
             <label htmlFor="email">Email</label>
             <input className="contact-row-img-items-form__input" type="email" name="email" id="email" />
