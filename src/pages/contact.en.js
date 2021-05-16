@@ -15,6 +15,7 @@ const ContactPage = () => (
           <form method="POST" action="/en/contact" netlify netlify-honeypot="bot-field" data-netlify="true" name='Contact' form-name='Contact' className="contact-row-img-items-form">
           <h5>Contact form</h5>
             <label htmlFor="name">name/surname</label>
+            <input type="hidden" name="form-name" value="Contact" />
             <input className="contact-row-img-items-form__input" type="text" name="name" id="name" />
             <label htmlFor="email">Email</label>
             <input className="contact-row-img-items-form__input" type="email" name="email" id="email" />
