@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout.en"
 import { Row, Col } from 'react-bootstrap';
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoneyBillWave, faCommentsDollar, faBuilding, 
@@ -10,7 +10,7 @@ import './styles/payroll.scss'
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Accounting" />
+    <Seo title="Accounting" />
     <Row>
       <Col md="12" className="imgcol" />
     </Row>

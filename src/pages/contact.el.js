@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout.el"
 import { Row, Col, Button } from 'react-bootstrap';
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -9,7 +9,7 @@ import './styles/contact.scss'
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Επικοινωνία" />
+    <Seo title="Επικοινωνία" />
     <Row className="contact-row">
       <Col lg={6} sm="12" className="contact-row-img">
         <div className="contact-row-img-items">

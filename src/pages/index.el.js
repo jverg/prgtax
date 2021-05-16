@@ -8,11 +8,11 @@ import { faAddressCard, faBuilding, faBook, faSearchDollar, faPaste, faUsersCog 
 import './styles/index.scss'
 
 import Layout from "../components/layout.el"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Αρχική" />
+    <Seo title="Αρχική" />
     <Row className="first-index-row">
       <Col lg="6" md="6" sm="12" xs="12" className="first-index-row__text-col">
         <h3>
