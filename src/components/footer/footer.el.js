@@ -23,7 +23,7 @@ const Footer = () => (
             <a href="tel:2107239745" style={{color: "black"}}>
               210 7239 745
             </a>
-            <a href="tel:2144028210" style={{color: "black"}}> & 214 4028 210
+            <a href="tel:2144028210" style={{color: "black"}}> & 214 4028 200
             </a>
           </h5>
           <h5>

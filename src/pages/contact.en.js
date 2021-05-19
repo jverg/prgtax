@@ -30,7 +30,7 @@ const ContactPage = () => (
           <h4 className="contact-row-col-text">Contact us</h4>
           <h5>
             <FontAwesomeIcon className="contact-row-col-icon" icon={faPhone} color="#77C5EF"/>
-            (+30) 210 7239 745 & (+30) 214 4028 210
+            (+30) 210 7239 745 & (+30) 214 4028 200
           </h5>
           <h5>
             <FontAwesomeIcon className="contact-row-col-icon" icon={faEnvelope} color="#77C5EF"/>
